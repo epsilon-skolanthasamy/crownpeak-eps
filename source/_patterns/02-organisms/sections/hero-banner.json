@@ -1,0 +1,9 @@
+{
+    "bannerClass": "landing-page",
+	"heroBanner": {
+        "homeBanner" : {
+            "description": "Partner with Epsilon to Empower Your Investment in Crownpeak"
+        },
+        "blogBanner": "" 
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "bannerClass": "blog-detail",
+    "heroBanner": {
+        "homeBanner": "",
+
+        "blogBanner": {
+            "blogCategory": "Case Study",
+            "image" : {
+                "url": "../../something.png",
+                "alt": "Some ALt"
+            },
+            "description": "Walgreens Balance R Rewards program makes a healthy partnership with Epsilon"
+
+        }
+    }
+}
