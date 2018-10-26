@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1540545577131,
+  "timestamp": 1540554146235,
   "graph": {
     "options": {
       "directed": true,
@@ -147,13 +147,19 @@
         }
       },
       {
-        "v": "C:\\Users\\gthomas\\Documents\\GitHub\\CrownPeak-microsite\\source\\_meta\\_00-head.mustache",
+        "v": "02-organisms\\sections\\hero-banner~insight.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "C:\\Users\\gthomas\\Documents\\GitHub\\crownpeak-eps\\source\\_meta\\_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "C:\\Users\\gthomas\\Documents\\GitHub\\CrownPeak-microsite\\source\\_meta\\_01-foot.mustache",
+        "v": "C:\\Users\\gthomas\\Documents\\GitHub\\crownpeak-eps\\source\\_meta\\_01-foot.mustache",
         "value": {
           "compileState": null
         }
@@ -162,6 +168,11 @@
     "edges": [
       {
         "v": "02-organisms\\sections\\hero-banner~blog-detail.json",
+        "w": "02-organisms\\sections\\hero-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\hero-banner~insight.json",
         "w": "02-organisms\\sections\\hero-banner.mustache",
         "value": {}
       }
