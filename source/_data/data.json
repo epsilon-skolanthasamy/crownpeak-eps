@@ -4191,6 +4191,16 @@
 	"linkClass" : "",
 	"linkTxt" : "Read More",
     
+    "headingTag": "h1",
+    "headingTxt":"This is heading",
+    "headingSubtxt":"This is sub text",
+
+    "imageList" : {
+    	"imgPath" : "../../images/cs-1.jpg",
+	    "imgAlttxt":"alt text",
+	    "imgLink":"#",
+	    "linkClass":""
+    },    
 
     "header": {
     	"navList" : [
@@ -4220,7 +4230,91 @@
 				"linkTxt" : "Contact us"
     		}
     	]
+    },
+    "contentBlock":{
+	    "button": {
+			"buttonText": "Read More",
+			"buttonType": "button",
+			"buttonClass": "contentBlock-btn",
+			"buttonIcon" : "external-link"
+		}
+    },
+    "caseStudy":{
+    	"imageLists" : [
+    		{
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-1.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-2.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-3.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-4.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-5.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-6.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-7.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-8.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    }
+		  
+    	],  		    
+	    
+	
+	    "headingTag": "h3",
+	    "headingTxt":"Case Studies",
+	    "headingSubtxt":"Solutions to real world challenges"
+
     }
+
 
 
 
