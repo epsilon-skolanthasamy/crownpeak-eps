@@ -76,12 +76,8 @@
 /**
   * Animation Easing
   */
-/*------------------------------------*\
-    #BREAKPOINTS
-\*------------------------------------*/
-/**
- * Breakpoints
- */
+/*Our variables*/
+/*@import "scss/base/bootstrap-variables-override";*/
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -112,9 +108,9 @@
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
-  --breakpoint-md: 769px;
+  --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1440px;
+  --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -447,8 +443,8 @@ template {
 
 .container {
   width: 100%;
-  padding-right: 13.5px;
-  padding-left: 13.5px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -459,7 +455,7 @@ template {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
@@ -471,7 +467,7 @@ template {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
@@ -479,8 +475,8 @@ template {
 
 .container-fluid {
   width: 100%;
-  padding-right: 13.5px;
-  padding-left: 13.5px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -491,8 +487,8 @@ template {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -13.5px;
-  margin-left: -13.5px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
@@ -515,8 +511,8 @@ template {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 13.5px;
-  padding-left: 13.5px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .col {
@@ -955,7 +951,7 @@ template {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1357,7 +1353,7 @@ template {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .col-xl {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -3752,7 +3748,7 @@ tbody.collapse.show {
   }
 }
 
-@media (max-width: 768.98px) {
+@media (max-width: 767.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
@@ -3760,7 +3756,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .navbar-expand-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3864,7 +3860,7 @@ tbody.collapse.show {
   }
 }
 
-@media (max-width: 1439.98px) {
+@media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -3872,7 +3868,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .navbar-expand-xl {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4841,7 +4837,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .d-md-none {
     display: none !important;
   }
@@ -4909,7 +4905,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .d-xl-none {
     display: none !important;
   }
@@ -5318,7 +5314,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -5590,7 +5586,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .flex-xl-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -5750,7 +5746,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .float-md-left {
     float: left !important;
   }
@@ -5774,7 +5770,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .float-xl-left {
     float: left !important;
   }
@@ -6458,7 +6454,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .m-md-0 {
     margin: 0 !important;
   }
@@ -6958,7 +6954,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -7246,7 +7242,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .text-md-left {
     text-align: left !important;
   }
@@ -7270,7 +7266,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .text-xl-left {
     text-align: left !important;
   }

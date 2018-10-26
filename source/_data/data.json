@@ -6,10 +6,7 @@
 	"pageTitle": "Page Title",
 	"htmlClass": "",
 	"bodyClass": "",
-	"button": {
-		"buttonText": "Button",
-		"buttonType": "button"
-	},
+	
 	"textButtonLabel": "Text Button",
 
 	"progress": true,
@@ -4171,12 +4168,61 @@
 
 
 
+
+
     "company": {
         "name": "CrownPeak - Epsilon",
         "url": "/"
     },
 
+   
 
+
+
+
+
+    "button": {
+		"buttonText": "Button",
+		"buttonType": "button",
+		"buttonClass": ""
+	},
+
+	"link" : "#",
+	"linkClass" : "",
+	"linkTxt" : "Read More",
     
+
+    "header": {
+    	"navList" : [
+    		{
+    			"link" : "#",
+				"linkClass" : "nav-link active",
+				"linkTxt" : "Home"
+    		},
+    		{
+    			"link" : "#",
+				"linkClass" : "nav-link",
+				"linkTxt" : "About us"
+    		},
+    		{
+    			"link" : "#",
+				"linkClass" : "nav-link",
+				"linkTxt" : "Case studies"
+    		},
+    		{
+    			"link" : "#",
+				"linkClass" : "nav-link",
+				"linkTxt" : "insights"
+    		},
+    		{
+    			"link" : "#",
+				"linkClass" : "nav-link contact-button",
+				"linkTxt" : "Contact us"
+    		}
+    	]
+    }
+
+
+
 
 }

@@ -2,7 +2,7 @@
 @import "scss/abstracts/variables";
 
 // Bootstrap overrides
-// @import "scss/base/bootstrap-variables-override";
+/*// @import "scss/base/bootstrap-variables-override";*/
 
 // Include sass-rem
 @import '../../node_modules/sass-rem/_rem.scss';
@@ -50,3 +50,4 @@
     $COMPONENTS
 \*------------------------------------*/
 
+@import "scss/components/header";
