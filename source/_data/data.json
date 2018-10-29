@@ -4186,10 +4186,11 @@
 		"buttonType": "button",
 		"buttonClass": ""
 	},
-
-	"link" : "#",
-	"linkClass" : "",
-	"linkTxt" : "Read More",
+	"links": {
+		"link" : "#",
+		"linkClass" : "",
+		"linkTxt" : "Read More"
+	},	
     
     "headingTag": "h1",
     "headingTxt":"This is heading",
@@ -4203,31 +4204,41 @@
     },    
 
     "header": {
-    	"navList" : [
+    	"navList" : [    		
     		{
-    			"link" : "#",
-				"linkClass" : "nav-link active",
-				"linkTxt" : "Home"
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link active",
+					"linkTxt" : "Home"
+				}
     		},
     		{
-    			"link" : "#",
-				"linkClass" : "nav-link",
-				"linkTxt" : "About us"
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link",
+					"linkTxt" : "About us"
+				}
     		},
     		{
-    			"link" : "#",
-				"linkClass" : "nav-link",
-				"linkTxt" : "Case studies"
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link",
+					"linkTxt" : "Case studies"
+				}
     		},
     		{
-    			"link" : "#",
-				"linkClass" : "nav-link",
-				"linkTxt" : "insights"
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link",
+					"linkTxt" : "insights"
+				}
     		},
     		{
-    			"link" : "#",
-				"linkClass" : "nav-link contact-button",
-				"linkTxt" : "Contact us"
+    			"links": {
+	    			"link" : "#",
+					"linkClass" : "nav-link contact-button",
+					"linkTxt" : "Contact us"
+				}
     		}
     	]
     },
@@ -4335,6 +4346,39 @@
             "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
         }
     },
+
+    "blogs" :{
+		"headingTag": "h3",
+	    "headingTxt":"Blogs",
+	    "headingSubtxt":"Business insights & resources",	
+		"blogList":	[
+			{
+				"headingTag": "h4",
+			    "headingTxt":"Why your data strategy and loyalty program do belong together",
+			    "headingSubtxt":"",
+				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+				"links": {
+					"linkTxt": "View blog article",
+					"linkClass": "blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				}
+			},
+			{
+				"headingTag": "h4",
+			    "headingTxt":"Understanding the value of the catalog in the digital age",
+			    "headingSubtxt":"",
+				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+				"links": {
+					"linkTxt": "View blog article",
+					"linkClass": "blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				}
+			}
+		]    	
+    	
+    }
 
 
 
