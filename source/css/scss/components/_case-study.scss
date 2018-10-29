@@ -17,20 +17,24 @@
 		flex-wrap: wrap;
 		overflow: hidden;
 		width: 100%;
-		.imgBox img{
-			max-width: 100%;
-			margin-bottom: 30px;
-			&:hover{
-				opacity:0.6;
+		.col-md-3{
+			padding: 0;
+			.imgBox {
+				margin: 0 5px;
+				img{
+					max-width: 100%;
+					margin-bottom: 10px;
+					&:hover{
+						opacity:0.6;
+					}
+				}
 			}
 		}
 	}
 	@media screen and (max-width: 767px){
-		.imgWrap{
-			display: block;
-		}
 		h3 span{
 			display: block;
+			margin-left: 0;
 		}
 	}
 }
