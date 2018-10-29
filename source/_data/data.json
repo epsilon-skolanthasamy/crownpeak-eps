@@ -4378,9 +4378,38 @@
 			}
 		]    	
     	
+    },
+    "footer" : {
+    	"ctaSection" :{
+    		"imageList":{
+	    		"imgPath" : "../../images/footer-img.jpg",
+			    "imgAlttxt":"alt text",
+			    "imgLink":"#"
+    		},	    	
+		    "headingTag": "h2",
+		    "headingTxt":"Let’s get together. Crownpeak Empower 2018",
+		    "headingSubtxt":"",
+		    "links": {
+				"linkTxt": "Contact us",
+				"linkClass": "footer-cta-btn",
+				"linkIcon" : "chevron-right",
+				"link": "#"
+			}
+    	},
+    	"aboutContent":{
+    		"epsilonURL": "#",
+    		"twitterURL":"#",
+    		"privacyURL":"#",
+    		"preferenceURL":"#"
+    	},
+    	"copyright":{
+    		"privacyURL":"#",
+    		"privacyTxt":"Privacy Policy",
+    		"termsURL" : "#",
+    		"termsTxt":"Terms & Conditions",
+    		"copyTxt": "Copyright © 2018 Epsilon Data Management LLC. All rights reserved." 
+    	}
     }
-
-
 
 
 
