@@ -4311,9 +4311,30 @@
 	
 	    "headingTag": "h3",
 	    "headingTxt":"Case Studies",
-	    "headingSubtxt":"Solutions to real world challenges"
+	    "headingSubtxt":"Solutions to real world challenges",
 
-    }
+
+        "caseStudyStory": {
+            "caseStudyStoryHead": [
+                {
+                    "title": "Project",
+                    "desc": "Targeting"
+                },
+                {
+                    "title": "Services",
+                    "desc": "Data, analytics and modeling Strategic mapping"
+                },
+                {
+                    "title": "Industry",
+                    "desc": "Nonprofit"
+                }
+            ]
+        },
+        "caseStudyStoryDetail": {
+            "title": "The story",
+            "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
+        }
+    },
 
 
 
