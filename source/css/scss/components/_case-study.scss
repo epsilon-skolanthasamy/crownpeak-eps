@@ -108,3 +108,24 @@
 		font-size: 18px;
 	}
 }
+
+/*------------------------------------*\
+    $More Case studies
+/*------------------------------------*/
+.more-cs.case-studies{
+	h3{
+		text-transform: none;
+		color: $btn-blue;
+		text-align: center;
+	}
+	.more-cs-btn{
+		padding: 10px 15px;
+		text-decoration:none;
+		margin: 15px auto;
+		border: 1px solid $btn-blue;
+		color: $btn-blue;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 600;
+	}
+}

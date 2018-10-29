@@ -4346,6 +4346,51 @@
             "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
         }
     },
+    "moreCaseStudy":{
+    	"headingTag": "h3",
+	    "headingTxt":"More Case Studies",
+	    "headingSubtxt":"",
+    	"imageLists" : [
+    		{
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-1.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-2.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-3.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    },
+		    {
+    			"imageList" : {
+			    	"imgPath" : "../../images/cs-4.jpg",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#",
+				    "linkClass":""
+			    }  
+		    }
+		  
+    	],
+    	"links": {
+			"link" : "#",
+			"linkClass" : "more-cs-btn",
+			"linkTxt" : "View More Work"
+		}		    
+    },
 
     "blogs" :{
 		"headingTag": "h3",
@@ -4409,8 +4454,7 @@
     		"termsTxt":"Terms & Conditions",
     		"copyTxt": "Copyright © 2018 Epsilon Data Management LLC. All rights reserved." 
     	}
-    }
-
+    },
 
 
 }
