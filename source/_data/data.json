@@ -4673,8 +4673,39 @@
 			"buttonType":"button",
 			"buttonText":"Submit"
 		}
+	},
+	"sidebarBlogs":{
+		"sbBlogList":[
+			{
+				"blogHeader":"Top Pics",
+				"blogImg":"../../images/sb-blog-1.jpg",
+				"blogImgAltTxt":"alt",
+				"sbBlogAuthor":"Epsilon Marketing",
+				"sbBlogHeading":"What millennials want from QSR loyalty programs",
+				"sbBlogDate":"Jan 10, 2017",
+				"links": {
+					"linkTxt": "View post",
+					"linkClass": "sb-blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				}
+			},
+			{
+				"blogHeader":"Go Deep",
+				"blogImg":"../../images/sb-blog-2.jpg",
+				"blogImgAltTxt":"alt",
+				"sbBlogAuthor":"Epsilon Marketing",
+				"sbBlogHeading":"What millennials want from QSR loyalty programs",
+				"sbBlogDate":"Jan 10, 2017",
+				"links": {
+					"linkTxt": "View post",
+					"linkClass": "sb-blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				}
+			}
+		]
 	}
-
 
 
 
