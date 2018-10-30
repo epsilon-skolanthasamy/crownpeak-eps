@@ -4455,6 +4455,21 @@
     		"copyTxt": "Copyright © 2018 Epsilon Data Management LLC. All rights reserved." 
     	}
     },
+    "testimonialBanner":{
+    	"links": {
+				"linkTxt": "watch client testimonial",
+				"linkClass": "testimonial-cta-btn",
+				"link": "#"
+			},
+    	"testimonialImg":"../../images/testimonial-banner.jpeg",
+    	"testimonialAltTxt":"Testimonial image",
+    	"testimonial":"We were able to launch a [loyalty] program in a few short months... we wouldn't have been able to do it without Epsilon and the partnership we've built.",
+    	"testimonialAuthor": "Kelly Smolinksi, Director, Customer Systems, Walgreens",
+    	
+		"headingTag": "h1",
+	    "headingTxt":"4M+",
+	    "headingSubtxt":"pruchase transactions/day"
+    }
 
 
 }
