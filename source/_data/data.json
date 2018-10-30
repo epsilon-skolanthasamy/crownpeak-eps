@@ -4344,6 +4344,20 @@
         "caseStudyStoryDetail": {
             "title": "The story",
             "desc": "The Leukemia & Lymphoma Society (LLS) wanted to help its local chapters expand their School & Youth Programs’ fundraising efforts. They asked Epsilon to develop an analytics-based targeting strategy to help the chapters identify high-potential schools and improve their marketing effectiveness."
+        },
+        "caseStudySolution":{
+        	"headingTag": "h3",
+		    "headingTxt": "The Solution",
+		    "headingSubtxt": "",
+		    "csSolutionLogo": "../../images/al-logo.png",
+		    "csSolutionAltTxt": "al-logo",
+		    "csSolutionContent": "Epsilon's Loyalty platform supports and routs data for each Balance Rewards member interaction, including online/in-store enrollments, online purchases and activity uploads from devices lnk FitBit. We also integrated Web services support real-time enrollment through multiple channels."
+        },
+        "caseStudyResults":{
+        	"headingTag": "h3",
+		    "headingTxt": "The Results",
+		    "headingSubtxt": "",
+		    "csResultsContent":"more than 150 million people have enrolled in the Balance Rewards program. The system processes 4M+ purchase transactions per day and 4B+ loyalty requests per year."
         }
     },
     "moreCaseStudy":{
