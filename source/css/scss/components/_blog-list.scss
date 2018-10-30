@@ -55,3 +55,48 @@
 		}
 	}
 }
+.blog-list-main{
+	.mainBlogs{
+		list-style-type: none;
+		padding-left: 0;
+		li{
+			border: 6px solid $color-gray-42;
+			margin-bottom: 25px;
+			img{
+				width: 100%;
+				margin-bottom: 5px;
+			}
+			.blog-content{
+				padding: 10px 30px 20px;
+				h3{
+					font-size: 	22px;
+					font-weight: 600;
+				}
+				.blog-author span{
+					color: #84b1a9;
+					font-weight: 700;
+				}
+				.blog-date{
+					color: $footer-gray;
+					font-weight: 700;
+				}
+				.blog-tags span{
+					color: #84b1a9;
+					font-weight: 700;
+					font-size: 13px;
+				}
+				.blog-btn{
+					border: 1px solid $base-color;
+					color: $base-color;
+					padding: 10px 15px;
+					display: inline-block;
+					text-decoration:none;
+					margin-bottom: 15px;
+					i{
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+	}
+}

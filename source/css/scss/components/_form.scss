@@ -1,0 +1,26 @@
+.subscribe-form{
+	background-color: $base-color;
+	padding: 20px;
+	h3{
+		color: $color-white;
+	}
+	input{
+		color: $color-white;
+		background-color: transparent;
+		border: 1px solid $color-white;
+		margin-bottom: 20px;
+		&:focus, &:active{
+			background-color:transparent;
+			box-shadow: none;
+			color: $color-white;
+		}
+	}
+	.form-btn{
+		background-color: transparent;
+		border: 1px solid $color-white;
+		margin-bottom: 15px;
+		color: $color-white;
+		padding: 8px 20px;
+		margin-top: 10px;
+	}
+}

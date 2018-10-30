@@ -4175,12 +4175,6 @@
         "url": "/"
     },
 
-   
-
-
-
-
-
     "button": {
 		"buttonText": "Button",
 		"buttonType": "button",
@@ -4405,7 +4399,6 @@
 			"linkTxt" : "View More Work"
 		}		    
     },
-
     "blogs" :{
 		"headingTag": "h3",
 	    "headingTxt":"Blogs",
@@ -4435,8 +4428,7 @@
 					"link": "#"
 				}
 			}
-		]    	
-    	
+		]    	 	
     },
     "footer" : {
     	"ctaSection" :{
@@ -4483,7 +4475,208 @@
 		"headingTag": "h1",
 	    "headingTxt":"4M+",
 	    "headingSubtxt":"pruchase transactions/day"
-    }
+    },
+    "mainBlogs":{
+		"blogList":	[
+			{
+				"headingTag": "h3",
+			    "headingTxt":"Why your data strategy and loyalty program do belong together",
+			    "headingSubtxt":"",
+				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+				"blogAuthor":"Jackie Marquis",
+				"blogDate":"Oct 11, 2018",
+				"blogTags":"Loyalty, Loyalty Marketing, Strategy, Data",
+				"links": {
+					"linkTxt": "View Post",
+					"linkClass": "blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				},
+				"imageList" : {
+			    	"imgPath" : "../../images/blog-1.png",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#"
+			    }  
+			},
+			{
+				"headingTag": "h3",
+			    "headingTxt":"Understanding the value of the catalog in the digital age",
+			    "headingSubtxt":"",
+				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
+				"blogAuthor":"Jackie Marquis",
+				"blogDate":"Oct 11, 2018",
+				"blogTags":"Loyalty, Loyalty Marketing, Strategy, Data",
+				"links": {
+					"linkTxt": "View Post",
+					"linkClass": "blog-btn",
+					"linkIcon" : "chevron-right",
+					"link": "#"
+				},
+				"imageList" : {
+			    	"imgPath" : "../../images/blog-2.png",
+				    "imgAlttxt":"alt text",
+				    "imgLink":"#"
+			    }
+			}
+		]   
+    },
+    "subscribeForm":{
+    	"groupHead": "Subscribe",
+		"formFields": [
+			{
+				"class": "",
+				"label": "First Name",
+				"id": "firstName",
+				"textInput": {
+					"attributes": [
+						{
+							"name": "id",
+							"value": "firstName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Please enter your first name"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid First Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "First Name"
+						}
+					],
+					"required": {
+						"errorMessage": "First Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Last Name",
+				"id": "lastName",
+				"textInput": {
+					"attributes": [
+						{
+							"name": "id",
+							"value": "lastName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Please enter your last name"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Last Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Last Name"
+						}
+					],
+					"required": {
+						"errorMessage": "Last Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Please enter your Email"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			}
+		],
+		"button":{
+			"buttonClass":"form-btn",
+			"buttonType":"button",
+			"buttonText":"Submit"
+		}
+	}
+
+
+
 
 
 }
