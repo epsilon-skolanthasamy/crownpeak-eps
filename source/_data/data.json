@@ -4187,6 +4187,7 @@
 	},	
     
     "headingTag": "h1",
+    "headingClass": "bloghead",
     "headingTxt":"This is heading",
     "headingSubtxt":"This is sub text",
 
@@ -4237,86 +4238,31 @@
     	]
     },
     "contentBlock":{
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 	    "button": {
-			"buttonText": "Read More",
+			"buttonText": "Lorem",
 			"buttonType": "button",
 			"buttonClass": "contentBlock-btn",
 			"buttonIcon" : "external-link"
 		}
     },
     "caseStudy":{
+        
+
     	"imageLists" : [
-    		{
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-1.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-2.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-3.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-4.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-5.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-6.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-7.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    },
-		    {
-    			"imageList" : {
-			    	"imgPath" : "../../images/cs-8.jpg",
-				    "imgAlttxt":"alt text",
-				    "imgLink":"#",
-				    "linkClass":""
-			    }  
-		    }
-		  
+    		{},
+		    {},
+		    {},
+		    {},
+		    {},
+		    {},
+		    {},
+		    {}
     	],  		    
 	    
 	
 	    "headingTag": "h3",
-	    "headingTxt":"Case Studies",
-	    "headingSubtxt":"Solutions to real world challenges",
+        "headingClass": "bloghead",
 
 
         "caseStudyStory": {
@@ -4341,6 +4287,7 @@
         },
         "caseStudySolution":{
         	"headingTag": "h3",
+            "headingClass": "bloghead",
 		    "headingTxt": "The Solution",
 		    "headingSubtxt": "",
 		    "csSolutionLogo": "../../images/al-logo.png",
@@ -4349,6 +4296,7 @@
         },
         "caseStudyResults":{
         	"headingTag": "h3",
+            "headingClass": "bloghead",
 		    "headingTxt": "The Results",
 		    "headingSubtxt": "",
 		    "csResultsContent":"more than 150 million people have enrolled in the Balance Rewards program. The system processes 4M+ purchase transactions per day and 4B+ loyalty requests per year."
@@ -4356,6 +4304,7 @@
     },
     "moreCaseStudy":{
     	"headingTag": "h3",
+        "headingClass": "bloghead",
 	    "headingTxt":"More Case Studies",
 	    "headingSubtxt":"",
     	"imageLists" : [
@@ -4399,35 +4348,29 @@
 			"linkTxt" : "View More Work"
 		}		    
     },
+
+    
+    "blogList": {
+        "headingTag": "h4",
+        "headingTxt":"Lorem Ipsum is simply dummy text of the print",
+        "headingSubtxt":"",
+        "blogContent":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "links": {
+            "linkTxt": "Lorem ",
+            "linkClass": "blog-btn",
+            "linkIcon" : "chevron-right",
+            "link": "#"
+        }
+    },
+    
     "blogs" :{
 		"headingTag": "h3",
-	    "headingTxt":"Blogs",
-	    "headingSubtxt":"Business insights & resources",	
-		"blogList":	[
-			{
-				"headingTag": "h4",
-			    "headingTxt":"Why your data strategy and loyalty program do belong together",
-			    "headingSubtxt":"",
-				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
-				"links": {
-					"linkTxt": "View blog article",
-					"linkClass": "blog-btn",
-					"linkIcon" : "chevron-right",
-					"link": "#"
-				}
-			},
-			{
-				"headingTag": "h4",
-			    "headingTxt":"Understanding the value of the catalog in the digital age",
-			    "headingSubtxt":"",
-				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
-				"links": {
-					"linkTxt": "View blog article",
-					"linkClass": "blog-btn",
-					"linkIcon" : "chevron-right",
-					"link": "#"
-				}
-			}
+        "headingClass": "bloghead",
+	    "headingTxt":"Lorem",
+	    "headingSubtxt":" dummy text of the print",	
+		"blogLists": [
+			{},
+			{}
 		]    	 	
     },
     "footer" : {
@@ -4473,6 +4416,7 @@
     	"testimonialAuthor": "Kelly Smolinksi, Director, Customer Systems, Walgreens",
     	
 		"headingTag": "h1",
+        "headingClass": "bloghead",
 	    "headingTxt":"4M+",
 	    "headingSubtxt":"pruchase transactions/day"
     },
@@ -4480,6 +4424,7 @@
 		"blogList":	[
 			{
 				"headingTag": "h3",
+                "headingClass": "bloghead",
 			    "headingTxt":"Why your data strategy and loyalty program do belong together",
 			    "headingSubtxt":"",
 				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
@@ -4500,6 +4445,7 @@
 			},
 			{
 				"headingTag": "h3",
+                "headingClass": "bloghead",
 			    "headingTxt":"Understanding the value of the catalog in the digital age",
 			    "headingSubtxt":"",
 				"blogContent":"One of the inherent benefits of loyalty programs is the data and insights marketers can glean about their best customers. Yet, as I talk with clients I often find marketers have the perception that their data strategy and loyalty programs do not belong together, and they are treated as separate marketing entities with unique teams, goals and plans. ",
@@ -4705,9 +4651,22 @@
 				}
 			}
 		]
-	}
+	},
 
-
+    "homePageData": {
+        "heroBanner": {
+            "bannerClass": "landing-page",
+            "bannerImg": {
+                "url": "../../images/banner1.jpg",
+                "alt": "Lorem"
+            },
+            "homeBanner" : {
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit "
+            },
+            "blogBanner": "",
+            "insightBanner": "" 
+        }
+    }
 
 
 }
