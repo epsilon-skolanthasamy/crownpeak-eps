@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1540554440412,
+  "timestamp": 1541000147907,
   "graph": {
     "options": {
       "directed": true,
@@ -41,13 +41,25 @@
       {
         "v": "00-atoms\\_buttons\\button.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-subscribe-form\\02-organisms-sections-subscribe-form.rendered.html",
+          "lineagePattern": "organisms-subscribe-form",
+          "lineageState": "inprogress"
         }
       },
       {
         "v": "00-atoms\\_buttons\\button~blue.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\_buttons\\button~icon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineageState": "Completed",
+          "lineagePath": "../../patterns/02-organisms-sections-contentBlock\\02-organisms-sections-contentBlock.rendered.html",
+          "lineagePattern": "organisms-contentBlock"
         }
       },
       {
@@ -65,13 +77,18 @@
       {
         "v": "00-atoms\\forms\\00-text-field.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-subscribe-form\\02-organisms-sections-subscribe-form.rendered.html",
+          "lineagePattern": "organisms-subscribe-form",
+          "lineageState": "inprogress"
         }
       },
       {
         "v": "00-atoms\\forms\\02-select-dropdown.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-signup-form\\02-organisms-sections-signup-form.rendered.html",
+          "lineagePattern": "organisms-signup-form"
         }
       },
       {
@@ -83,13 +100,32 @@
       {
         "v": "00-atoms\\forms\\customcheckbox.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-signup-form\\02-organisms-sections-signup-form.rendered.html",
+          "lineagePattern": "organisms-signup-form"
         }
       },
       {
         "v": "00-atoms\\images\\font-awesome-icon.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms\\images\\images.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-contact\\03-templates-04-contact.rendered.html",
+          "lineagePattern": "templates-contact",
+          "lineageState": "in progress"
+        }
+      },
+      {
+        "v": "00-atoms\\images\\images~link.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-moreCaseStudy\\01-molecules-moreCaseStudy.rendered.html",
+          "lineagePattern": "molecules-moreCaseStudy"
         }
       },
       {
@@ -105,9 +141,26 @@
         "v": "00-atoms\\links\\links.mustache",
         "value": {
           "compileState": "clean",
-          "lineageState": "inprogress",
-          "lineagePath": "../../patterns/02-organisms-sections-header\\02-organisms-sections-header.rendered.html",
-          "lineagePattern": "organisms-header"
+          "lineageState": "in progress",
+          "lineagePath": "../../patterns/02-organisms-sections-testimonial-banner\\02-organisms-sections-testimonial-banner.rendered.html",
+          "lineagePattern": "organisms-testimonial-banner"
+        }
+      },
+      {
+        "v": "00-atoms\\links\\links~icon.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-more-cs\\02-organisms-sections-more-cs.rendered.html",
+          "lineagePattern": "organisms-more-cs",
+          "lineageState": "in progress"
+        }
+      },
+      {
+        "v": "00-atoms\\list\\list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-list-content\\01-molecules-list-content.rendered.html",
+          "lineagePattern": "molecules-list-content"
         }
       },
       {
@@ -125,7 +178,10 @@
       {
         "v": "00-atoms\\text\\headings.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-testimonial-banner\\02-organisms-sections-testimonial-banner.rendered.html",
+          "lineagePattern": "organisms-testimonial-banner",
+          "lineageState": "in progress"
         }
       },
       {
@@ -147,19 +203,229 @@
         }
       },
       {
+        "v": "01-molecules\\blogList.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-blogList\\02-organisms-sections-blogList.rendered.html",
+          "lineagePattern": "organisms-blogList"
+        }
+      },
+      {
+        "v": "01-molecules\\blogList~main.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-blogList-main\\02-organisms-sections-blogList-main.rendered.html",
+          "lineagePattern": "organisms-blogList-main"
+        }
+      },
+      {
+        "v": "01-molecules\\caseStudy.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-case-study\\02-organisms-sections-case-study.rendered.html",
+          "lineagePattern": "organisms-case-study"
+        }
+      },
+      {
+        "v": "01-molecules\\list-content.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-content-list\\02-organisms-sections-content-list.rendered.html",
+          "lineagePattern": "organisms-content-list"
+        }
+      },
+      {
+        "v": "01-molecules\\moreCaseStudy.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-sections-more-cs\\02-organisms-sections-more-cs.rendered.html",
+          "lineagePattern": "organisms-more-cs"
+        }
+      },
+      {
+        "v": "01-molecules\\sidebarBlogs.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-blog\\03-templates-03-blog.rendered.html",
+          "lineagePattern": "templates-blog"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\blogList.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-homepage\\03-templates-01-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\blogList~main.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-blog\\03-templates-03-blog.rendered.html",
+          "lineagePattern": "templates-blog"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\case-study-solution.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-casestudy\\03-templates-02-casestudy.rendered.html",
+          "lineagePattern": "templates-casestudy"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\case-study-story.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-casestudy\\03-templates-02-casestudy.rendered.html",
+          "lineagePattern": "templates-casestudy"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\case-study.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-homepage\\03-templates-01-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\content-list.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-contact\\03-templates-04-contact.rendered.html",
+          "lineagePattern": "templates-contact"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\contentBlock.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-homepage\\03-templates-01-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\footer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-contact\\03-templates-04-contact.rendered.html",
+          "lineagePattern": "templates-contact"
+        }
+      },
+      {
         "v": "02-organisms\\sections\\header.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-contact\\03-templates-04-contact.rendered.html",
+          "lineagePattern": "templates-contact"
         }
       },
       {
         "v": "02-organisms\\sections\\hero-banner.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-01-homepage\\03-templates-01-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
         }
       },
       {
         "v": "02-organisms\\sections\\hero-banner~blog-detail.json",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-casestudy\\03-templates-02-casestudy.rendered.html",
+          "lineagePattern": "templates-casestudy"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\hero-banner~insight.json",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-blog\\03-templates-03-blog.rendered.html",
+          "lineagePattern": "templates-blog"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\more-cs.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\signup-form.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-04-contact\\03-templates-04-contact.rendered.html",
+          "lineagePattern": "templates-contact"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\subscribe-form.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-blog\\03-templates-03-blog.rendered.html",
+          "lineagePattern": "templates-blog"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\testimonial-banner.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-01-homepage\\04-pages-01-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-casestudy\\04-pages-02-casestudy.rendered.html",
+          "lineagePattern": "pages-casestudy"
+        }
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-03-blog\\04-pages-03-blog.rendered.html",
+          "lineagePattern": "pages-blog"
+        }
+      },
+      {
+        "v": "03-templates\\04-contact.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-04-contact\\04-pages-04-contact.rendered.html",
+          "lineagePattern": "pages-contact"
+        }
+      },
+      {
+        "v": "04-pages\\01-homepage.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\02-casestudy.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\03-blog.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages\\04-contact.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -184,6 +450,116 @@
         "value": {}
       },
       {
+        "v": "02-organisms\\sections\\hero-banner~insight.json",
+        "w": "02-organisms\\sections\\hero-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\blogList.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\blogList.mustache",
+        "w": "00-atoms\\links\\links~icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\blogList~main.mustache",
+        "w": "00-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\blogList~main.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\blogList~main.mustache",
+        "w": "00-atoms\\links\\links~icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\caseStudy.mustache",
+        "w": "00-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\list-content.mustache",
+        "w": "00-atoms\\list\\list.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\moreCaseStudy.mustache",
+        "w": "00-atoms\\images\\images~link.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules\\sidebarBlogs.mustache",
+        "w": "00-atoms\\links\\links~icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\blogList.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\blogList.mustache",
+        "w": "01-molecules\\blogList.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\blogList~main.mustache",
+        "w": "01-molecules\\blogList~main.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\case-study-solution.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\case-study.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\case-study.mustache",
+        "w": "01-molecules\\caseStudy.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\content-list.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\content-list.mustache",
+        "w": "01-molecules\\list-content.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\contentBlock.mustache",
+        "w": "00-atoms\\_buttons\\button~icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\footer.mustache",
+        "w": "00-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\footer.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\footer.mustache",
+        "w": "00-atoms\\links\\links~icon.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organisms\\sections\\header.mustache",
         "w": "00-atoms\\images\\logo.mustache",
         "value": {}
@@ -191,6 +567,196 @@
       {
         "v": "02-organisms\\sections\\header.mustache",
         "w": "00-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\more-cs.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\more-cs.mustache",
+        "w": "01-molecules\\moreCaseStudy.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\more-cs.mustache",
+        "w": "00-atoms\\links\\links~icon.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\signup-form.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\signup-form.mustache",
+        "w": "00-atoms\\forms\\00-text-field.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\signup-form.mustache",
+        "w": "00-atoms\\forms\\02-select-dropdown.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\signup-form.mustache",
+        "w": "00-atoms\\forms\\customcheckbox.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\signup-form.mustache",
+        "w": "00-atoms\\_buttons\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\subscribe-form.mustache",
+        "w": "00-atoms\\forms\\00-text-field.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\subscribe-form.mustache",
+        "w": "00-atoms\\_buttons\\button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\testimonial-banner.mustache",
+        "w": "00-atoms\\text\\headings.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms\\sections\\testimonial-banner.mustache",
+        "w": "00-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "w": "02-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "w": "02-organisms\\sections\\hero-banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "w": "02-organisms\\sections\\contentBlock.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "w": "02-organisms\\sections\\case-study.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "w": "02-organisms\\sections\\blogList.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\01-homepage.mustache",
+        "w": "02-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
+        "w": "02-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
+        "w": "02-organisms\\sections\\hero-banner~blog-detail.json",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
+        "w": "02-organisms\\sections\\case-study-story.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
+        "w": "02-organisms\\sections\\case-study-solution.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
+        "w": "02-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "02-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "02-organisms\\sections\\hero-banner~insight.json",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "02-organisms\\sections\\blogList~main.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "02-organisms\\sections\\subscribe-form.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "01-molecules\\sidebarBlogs.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "02-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-contact.mustache",
+        "w": "02-organisms\\sections\\header.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-contact.mustache",
+        "w": "00-atoms\\images\\images.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-contact.mustache",
+        "w": "02-organisms\\sections\\content-list.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-contact.mustache",
+        "w": "02-organisms\\sections\\signup-form.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\04-contact.mustache",
+        "w": "02-organisms\\sections\\footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\01-homepage.mustache",
+        "w": "03-templates\\01-homepage.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\02-casestudy.mustache",
+        "w": "03-templates\\02-casestudy.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\03-blog.mustache",
+        "w": "03-templates\\03-blog.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages\\04-contact.mustache",
+        "w": "03-templates\\04-contact.mustache",
         "value": {}
       }
     ]

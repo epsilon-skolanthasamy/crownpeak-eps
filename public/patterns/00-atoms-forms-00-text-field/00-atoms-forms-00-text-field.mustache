@@ -1,1 +1,2 @@
-<input {{# textInput.attributes }}{{ name }}="{{ value }}" {{/ textInput.attributes }} {{# textInput.required }}required data-required-error="{{ errorMessage }}" {{/ textInput.required }}>
+<div class="{{textInput.inputParentClass}}"><input {{# textInput.attributes }}{{ name }}="{{ value }}" {{/ textInput.attributes }} {{# textInput.required }}required data-required-error="{{ errorMessage }}" {{/ textInput.required }}>
+</div>
