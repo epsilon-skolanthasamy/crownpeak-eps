@@ -125,7 +125,8 @@
 		padding: 15px 20px;
 	}
 	.blog-post{
-		padding: 20px;
+		padding: 0px;
+		margin-bottom: 20px;
 		.post-wrap{
 			position: relative;
 			img{
@@ -172,5 +173,13 @@
 				}
 
 		}
+	}
+}
+/*Template Level styles - Blog page*/
+.blogsWrap{
+	padding: 20px 0;
+	.sidebar{
+		padding: 10px;
+		background-color: $color-gray-42;
 	}
 }

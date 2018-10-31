@@ -4196,7 +4196,8 @@
 	    "imgAlttxt":"alt text",
 	    "imgLink":"#",
 	    "linkClass":""
-    },    
+    },
+    "listItem": "List Item", 
 
     "header": {
     	"navList" : [    		
@@ -4489,7 +4490,7 @@
 						},
 						{
 							"name": "placeholder",
-							"value": "Please enter your first name"
+							"value": "Lorem ipsum"
 						},
 						{
 							"name": "type",
@@ -4537,7 +4538,7 @@
 						},
 						{
 							"name": "placeholder",
-							"value": "Please enter your last name"
+							"value": "Lorem Ipsum"
 						},
 						{
 							"name": "type",
@@ -4585,7 +4586,7 @@
 						},
 						{
 							"name": "placeholder",
-							"value": "Please enter your Email"
+							"value": "Lorem Ipsum"
 						},
 						{
 							"name": "type",
@@ -4666,7 +4667,383 @@
             "blogBanner": "",
             "insightBanner": "" 
         }
+    },
+    "listWrap":{
+    	"headingTag": "h3",
+        "headingClass": "",
+        "headingSubtxt":"",
+        "listHeading":"This is heading",
+        "listClass":"bullet-list",
+        "listItems":[
+        	{},
+        	{},
+        	{}
+        ],
+        "bottomTxt":"Dummy text"
+    },
+    "signupForm":{
+    	"headingTag": "h3",
+        "headingClass": "signup-heading",
+        "headingSubtxt":"",
+
+        "formFields":[
+			{
+				"class": "",				
+				"label": "First Name",
+				"id": "firstName",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "firstName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid First Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "First Name"
+						}
+					],
+					"required": {
+						"errorMessage": "First Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Last Name",
+				"id": "lastName",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "lastName"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "text"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Last Name"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Last Name"
+						}
+					],
+					"required": {
+						"errorMessage": "Last Name is required"
+					}
+				}
+			},
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			},			
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			},
+			
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			},
+			
+			{
+				"class": "",
+				"label": "Email",
+				"id": "email",
+				"textInput": {
+					"inputParentClass":"col-md-6",
+					"attributes": [
+						{
+							"name": "id",
+							"value": "email"
+						},
+						{
+							"name": "autoComplete",
+							"value": "off"
+						},
+						{
+							"name": "class",
+							"value": "form-control"
+						},
+						{
+							"name": "placeholder",
+							"value": "Lorem Ipsum"
+						},
+						{
+							"name": "type",
+							"value": "email"
+						},
+						{
+							"name": "data-minlength",
+							"value": "2"
+						},
+						{
+							"name": "data-minlength-error",
+							"value": "Invalid Email"
+						},
+						{
+							"name": "maxlength",
+							"value": "60"
+						},
+						{
+							"name": "aria-label",
+							"value": "Email"
+						}
+					],
+					"required": {
+						"errorMessage": "Email is required"
+					}
+				}
+			}
+		],
+		"bottomField":{
+			"headingTag": "h3",
+	        "headingClass": "",
+	        "headingSubtxt":"",
+	        "formFields":[
+				{
+					"label": "Select Menu",
+					"action": "Change",
+					"selectField": {
+						"attributes": [{
+								"name": "id",
+								"value": "selectMenu"
+							},
+							{
+								"name": "class",
+								"value": "select-menu"
+							}
+						],
+						"options": [{
+								"name": "dummy text",
+								"value": "dummy text",
+								"selected": "selected"
+							},
+							{
+								"name": "dummy text",
+								"value": "dummy text"
+							},
+							{
+								"name": "dummy text",
+								"value": "dummy text"
+							}
+						]
+					}
+				}
+			]
+		},
+		"button": {
+			"buttonText": "Lorem",
+			"buttonType": "button",
+			"buttonClass": "form-btn"
+		}		
+    },
+    "blogData":{
+    	"heroBanner": {
+	        "bannerClass": "insightBanner",
+	        "bannerImg": "",
+	        "insightBanner" : {
+	            "heading": "A Brand New View",
+	            "description": "Welcome to our world! Here you'll find all the latest thinking in marketing along with news, case studies and other useful resources to support your programs"
+	        },
+	        "blogBanner": "",
+	        "homeBanner": "" 
+	    }
+    },
+    "contactPage":{
+    	"imageList":{
+    		"imgPath" : "../../images/blog-banner.jpg"
+    	}
     }
+
 
 
 }
