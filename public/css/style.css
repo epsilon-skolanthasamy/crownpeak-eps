@@ -6714,6 +6714,7 @@ readers do not read off random characters that represent icons */
 .mainBlogs {
   list-style-type: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .mainBlogs li {
@@ -6762,6 +6763,10 @@ readers do not read off random characters that represent icons */
 
 .mainBlogs li .blog-content .blog-btn i {
   margin-left: 10px;
+}
+
+.mainBlogs li:last-child {
+  margin-bottom: 0;
 }
 
 /*Sidebar Blogs*/
@@ -7192,4 +7197,43 @@ footer hr {
 .contact-form {
   margin-bottom: 20px;
   margin-top: 30px;
+}
+
+.pagination-wrap {
+  margin: 0 auto;
+}
+
+.pagination-wrap ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pagination-wrap ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination-wrap ul li i {
+  margin-left: 8px;
+}
+
+.pagination-wrap ul li a {
+  padding: 5px 10px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+
+.pagination-wrap ul li a.active {
+  color: #fff;
+  background-color: #000000;
+  pointer-events: none;
+  cursor: default;
+}
+
+/*Template level css*/
+.pagination {
+  background-color: #D1D1D1;
+  padding: 60px 20px 10px;
+  border-radius: 0;
 }

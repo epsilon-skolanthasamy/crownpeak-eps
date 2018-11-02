@@ -75,6 +75,7 @@
 .mainBlogs{
 	list-style-type: none;
 	padding-left: 0;
+	margin-bottom: 0;
 	li{
 		border: 6px solid $color-gray-42;
 		margin-bottom: 25px;
@@ -112,6 +113,9 @@
 					margin-left: 10px;
 				}
 			}
+		}
+		&:last-child{
+			margin-bottom: 0;
 		}
 	}
 }

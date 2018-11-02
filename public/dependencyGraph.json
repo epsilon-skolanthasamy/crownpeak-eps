@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1541000147907,
+  "timestamp": 1541168526708,
   "graph": {
     "options": {
       "directed": true,
@@ -349,7 +349,17 @@
       {
         "v": "02-organisms\\sections\\more-cs.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-02-casestudy\\03-templates-02-casestudy.rendered.html",
+          "lineagePattern": "templates-casestudy"
+        }
+      },
+      {
+        "v": "02-organisms\\sections\\pagination.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-blog\\03-templates-03-blog.rendered.html",
+          "lineagePattern": "templates-blog"
         }
       },
       {
@@ -585,6 +595,11 @@
         "value": {}
       },
       {
+        "v": "02-organisms\\sections\\pagination.mustache",
+        "w": "00-atoms\\links\\links.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organisms\\sections\\signup-form.mustache",
         "w": "00-atoms\\text\\headings.mustache",
         "value": {}
@@ -681,6 +696,11 @@
       },
       {
         "v": "03-templates\\02-casestudy.mustache",
+        "w": "02-organisms\\sections\\more-cs.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\02-casestudy.mustache",
         "w": "02-organisms\\sections\\footer.mustache",
         "value": {}
       },
@@ -697,6 +717,11 @@
       {
         "v": "03-templates\\03-blog.mustache",
         "w": "02-organisms\\sections\\blogList~main.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates\\03-blog.mustache",
+        "w": "02-organisms\\sections\\pagination.mustache",
         "value": {}
       },
       {
